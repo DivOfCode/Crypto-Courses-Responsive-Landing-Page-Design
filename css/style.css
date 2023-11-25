@@ -1,0 +1,110 @@
+*{
+	margin: 0;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body{
+	font-family: Roboto, sans-serif;
+	background-color: #0c0f14;
+	color: #fff;
+	background-image:url(../images/headerbackground.png);
+	background-size: 100% 100vh;                     
+    background-repeat:no-repeat;
+    background-position:top top; 
+}
+a{
+	color: #fff;
+}
+a:hover{
+	color: #9a11ac;
+	text-decoration: none;
+}
+.nav-link:hover{
+	background:url('../images/texture.jpg');
+  	-webkit-background-clip: text;
+  	background-size: cover;                     
+    background-repeat:no-repeat;
+  	-webkit-text-fill-color: transparent;
+}
+.header{
+	    font-size: 20px;        
+}
+.heroh{
+	font-size: 20vh;
+	margin: -50px 0px 0px 0px;
+}
+.heroh2{
+	font-size: 12vh;
+}
+.hero{
+}
+.hero img{
+	width: 100%;
+	margin: -10vh 0px 0px 0px;
+	border-radius: 20px 20px 40px 40px ;
+}
+
+
+
+
+.border{
+	border: 0.1px solid gray;
+	border-radius: 20px;
+}
+.image1 img{
+	margin: 0px 0px 0px -70px;
+}
+.image2 img{
+	margin-top: 5px;
+}
+.card {
+	background-color: #0c0f14;
+	border: none;
+}
+.btn-own {
+  background:url('../images/texture.jpg');
+  color: #fff;
+  transition: background-position 1s ease, color 1s ease;
+}
+.gradient-text{
+	background:url('../images/texture.jpg');
+  	-webkit-background-clip: text;
+  	background-size: cover;                     
+    background-repeat:no-repeat;
+  	-webkit-text-fill-color: transparent;
+}
+.btn-own:hover {
+  background-position: right center;
+  color: #fff;
+}
+.btn{
+	font-size: 15px;
+	width: 150px;
+}
+#faqs{
+	background-image:url(../images/faqs1.jpg);
+	background-size: cover  ;                   
+    background-repeat:no-repeat;
+    background-position:top top; 
+}
+.card-1{
+	background-color: #041637;
+}
+.btn-link {
+    font-weight: 700;
+    color: #ffffff;
+    text-decoration: none;
+}
+.btn-link:hover {
+    font-weight: 700;
+    color: #ffffff;
+    text-decoration: none;
+}
+.card-header {
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 0;
+    border-bottom: 2px solid rgb(255 255 255);
+}
+footer{
+	color: #FFF;
+}
